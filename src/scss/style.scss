@@ -1,10 +1,10 @@
-body {
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
+@import 'colors.scss';
+
+header {
+    background-color: $gray;
 }
 
-main {
-    padding-top: 20px;
-    flex: 1;
+footer {
+    color: $light-gray;
+    background-color: $black;
 }

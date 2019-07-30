@@ -1,0 +1,31 @@
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+main {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    flex: 1;
+}
+
+footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+p {
+    &:last-child {
+        margin-bottom: 0;
+    }
+}
