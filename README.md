@@ -1,4 +1,4 @@
-# react-template
+# redux-template
 
 An empty react+redux project to get things started.
 
